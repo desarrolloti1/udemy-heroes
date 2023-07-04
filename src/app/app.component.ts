@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
-
+import { NgClass } from '@angular/common';
+import { LoginComponent } from './authentication/login/login.component';
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: './authentication/login/login.component.html',
+  styleUrls: ['./authentication/login/login.component.scss']
 })
 export class AppComponent {
   title = 'Almacen-Real';

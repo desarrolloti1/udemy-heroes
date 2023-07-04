@@ -1,13 +1,37 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>AlmacenReal</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
-</body>
-</html>
+
+<div class="login-register" style="background-image:url(assets/images/background/back2.jpg);">
+    <div class="login-register-box">
+        <mat-card class="backL">
+            <mat-card-content>
+                <form>
+                    <div class="text-center">
+                        <img alt="homepage" src="assets/images/clogo-black.png">
+                        <h4 class="m-t-0">Ingresa tus credenciales</h4>
+                    </div>
+  
+                    <div fxLayout="row wrap">
+                        <div fxFlex.gt-sm="100" fxFlex.gt-xs="100" fxFlex="100">
+                            <mat-form-field appearance="fill">
+                                <mat-label>Usuario</mat-label>
+                                <input matInput placeholder="">
+                                <mat-icon matSuffix>person</mat-icon>
+                            </mat-form-field>
+                        </div>
+                        <div fxFlex.gt-sm="100" fxFlex.gt-xs="100" fxFlex="100">
+                            <mat-form-field appearance="fill">
+                                <mat-label>Contraseña</mat-label>
+                                <input matInput type="password" placeholder="Contraseña">
+                                <mat-icon matSuffix>more</mat-icon>
+                            </mat-form-field>
+                        </div>
+                        <div fxFlex.gt-sm="100" fxFlex.gt-xs="100" fxFlex="100">
+                            <button mat-raised-button color="primary" class="btn-block btn-lg m-t-20 m-b-20"
+                                type="submit">Acceder</button>
+                        </div>
+  
+                    </div>
+                </form>
+            </mat-card-content>
+        </mat-card>
+    </div>
+  </div> 
