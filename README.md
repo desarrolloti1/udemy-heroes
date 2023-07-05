@@ -35,3 +35,10 @@ Por favor no robarme esta página web
 `
     npm run dev
 `
+
+## Por omitir
+Debemos omitir estos archivos y carpetas
+
+node_modules
+.log
+otra modificacion
