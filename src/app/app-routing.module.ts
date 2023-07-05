@@ -11,7 +11,7 @@ import { LoginComponent } from './authentication/login/login.component';
 
 
 export const AppRoutingModule: Routes = [
-  {
+  {sss
     path: '',
     children: [
       {
