@@ -41,6 +41,6 @@ Debemos omitir estos archivos y carpetas
 
 node_modules
 .log
-otra modificacion
+otra modificacions
 
 alguna otra modificacion
