@@ -4,3 +4,6 @@ Este archivo o este proyecto se encarga de manejar los planes de la liga de la j
 
 # Notas
 pueden hacer lo que quieran 
+
+### GitHub
+Cambios realizados en GitHub.com
